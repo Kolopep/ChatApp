@@ -4,6 +4,11 @@
              xmlns:local="clr-namespace:ChatApp"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Times New Roman"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="LightBlue"/>
+        </Style>
     </Application.Resources>
 </Application>
